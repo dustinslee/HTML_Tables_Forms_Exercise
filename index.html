@@ -8,6 +8,84 @@
   <body>
     <main>
       <!-- Complete the Exercises HERE -->
+      <table>
+        <thead>
+          <tr>
+            <th>Drink Name</th>
+            <th>Total servings</th>
+            <th>Serving size</th>
+            <th>Calories per serving</th>
+            <th>Carbs per serving</th>
+            <th>Sugar per serving</th>
+            <th>Sodium per serving</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Coca Cola</td>
+            <td>1</td>
+            <td>12 fl oz</td>
+            <td>138</td>
+            <td>35g</td>
+            <td>33g</td>
+            <td>15mg</td>
+          </tr>
+          <tr>
+            <td>Pepsi</td>
+            <td>1</td>
+            <td>12 fl oz</td>
+            <td>150</td>
+            <td>41g</td>
+            <td>39g</td>
+            <td>30mg</td>
+          </tr>
+          <tr>
+            <td>Coca Cola Zero</td>
+            <td>1</td>
+            <td>12 fl oz</td>
+            <td>0</td>
+            <td>0g</td>
+            <td>0g</td>
+            <td>40mg</td>
+          </tr>
+          <tr>
+            <td>Dr. Pepper</td>
+            <td>1</td>
+            <td>12 fl oz</td>
+            <td>150</td>
+            <td>40g</td>
+            <td>40g</td>
+            <td>55mg</td>
+          </tr>
+          <tr>
+            <td>Mountain Dew</td>
+            <td>1</td>
+            <td>12 fl oz</td>
+            <td>170</td>
+            <td>46g</td>
+            <td>46g</td>
+            <td>60mg</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <form>
+        <label for="dname">Drink name</label><br />
+        <input type="text" id="dname" name="dname" /><br />
+        <label for="tservings">Total servings</label><br />
+        <input type="number" id="tservings" name="tservings" /><br />
+        <label for="serving">Serving size (fl oz)</label><br />
+        <input type="number" id="serving" name="serving" /><br />
+        <label for="cals">Calories per serving (kcal)</label><br />
+        <input type="number" id="cals" name="cals" /><br />
+        <label for="carbs">Carbs per serving (g)</label><br />
+        <input type="number" id="carbs" name="carbs" /><br />
+        <label for="sugar">Sugars by serving (g)</label><br />
+        <input type="number" id="sugar" name="sugar" /><br />
+        <label for="nacl">Sodium per serving (g)</label><br />
+        <input type="number" id="nacl" name="nacl" /><br />
+        <button type="submit">Submit</button>
+      </form>
     </main>
   </body>
 </html>
